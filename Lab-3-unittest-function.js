@@ -7,7 +7,7 @@
  */
 
 function checkHumbrId(valueIn){
-    let Regex = /n\d{8}/i;
+    let Regex = /^n\d{8}$/i;
 
     return Regex.test(valueIn);
 }
